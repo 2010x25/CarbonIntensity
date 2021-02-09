@@ -3,6 +3,8 @@ A C# Console application for polling https://carbon-intensity.github.io/api-defi
 
 SQL Server is used to store the time series data. Application store data in SQL tables available for updating (adding new time series data points) and querying. Polling is resumed from the last stored timestamp to account for the application downtime.
 
+![Console](https://github.com/2010x25/CarbonIntensity/blob/master/Images/Console.png?raw=true "Console")
+
 # Application Setup
 Application is implemented in C# & .NET Core 3.1. Visual Studio 2019 Community or Visual Studio Code can be used to compile and Run. Database software is SQL server. Free version of SQL Server (SQL Express 2016) is required.
 
