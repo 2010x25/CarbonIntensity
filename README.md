@@ -12,10 +12,17 @@ Clone the git branch and change the connection string in Constants.cs > DbConnec
 ```csharp
 public const string DbConnectionString = "server=YourServerName;user id=YourUserName;password=YourPassword;initial catalog=CarbonIntensity;";
 ```
+
+![DB](https://github.com/2010x25/CarbonIntensity/blob/master/Images/Connection.png?raw=true "DB")
+
 Create a Database 'CarbonIntensity' in SQL Server. Execute table script exist in Script.txt in "Sql" directory.  
 Execute project by pressing F5 in Visual Studio 2019.
+
+![SQL](https://github.com/2010x25/CarbonIntensity/blob/master/Images/Script.png?raw=true "SQL")
 
 Query to database to extract carbon intesity data
 ```sql
   Select * from CarbonIntensity
 ```
+
+![Data](https://github.com/2010x25/CarbonIntensity/blob/master/Images/Data.png?raw=true "Data")
